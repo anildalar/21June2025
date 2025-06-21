@@ -1,0 +1,172 @@
+1. VIM Editor Modes
+
+	There are 2 modes
+	1.1 Insert Mode  -> I
+	1.2 Command Mode -> Esc
+		1.2.1 : 
+                        w -> Save
+			q -> Quit
+              Esc : w q enter
+
+2. How to create/Upload Repo to GitHub
+	2.1 Go to gitHub.com/new
+
+	5 Git Commands to upload to GitHub
+	
+	git init
+        git remote add origin <repoLink>
+	
+	git add .    Stagging
+        git commit -m "Message"    Committing
+	git push origin <branchName>
+
+
+3. Buy a domain from GoDaddy
+	~130 inr/year
+
+	3.1 Harsh -> snenmh.xyz   123 INr/year
+	3.2 Vijay -> vijayji.xyz  123 INR/year
+
+
+4. Buy a VPS(Virtual Private Server) from Contabo
+	~500 inr/month
+
+If you want to become a DevOps Engineer
+1. Own Domain
+2. Own Server
+	2.1 VPS  (Virtual Private Server)
+	2.2 Dedicated Server
+
+	
+Where we can buy/Purchase Server ?
+	1. Contabo
+	2. OVH
+	3. Hetzner
+
+	4. AWS
+	5. GCP
+	6. Microsoft AZure
+
+
+
+
+
+	
+	
+
+Once you buy server
+1. Server IP
+2. Server Port
+3. Username
+4. Password
+
+
+Server IP   = 65.108.149.166
+Server Port = 22 (SSH)
+Username    = root
+Password    = id_rsa
+
+C:\Users\<username>\.ssh\id_rsa
+
+C:\Users\himsu\.ssh\id_rsa
+
+id_rsa.zip
+
+1. GO To C Drvie
+2. Go inside Users
+3. Go Inside <username> my case. himsu
+4. Paste id_rsa.zip
+5. right click  -> WinRAR -> extract here...
+6. win + r
+7. cmd
+8. How to connect with remote server ?
+
+
+pwd = Present Working Directory
+cd = change directory
+
+Permission String
+lrwxrwxrwx = Symbolic Link / ShortCut (File)
+drwxrwxrwx = Directory
+-rwxrwxrwx = File
+
+
+0. How to show the content of a file ?
+   cat <filename>
+
+1. How i can check which OS i am working on ?
+	1.1  cat /etc/os-release
+
+2. How to check my server IP on the server ?
+	2.1  hostname -I
+	
+
+3. How to change my HostName ?
+	3.1 hostname <newHostName>
+	    hostname anil
+	
+4. How to remove everything in VIM ?
+	Esc : %d
+
+5. How to delete a line in VIM
+	Esc dd
+
+6. What is Client Server Architecture ?
+
+7. How to install a WebServer on your server ?
+	7.1 Apache
+		7.1.1 apt install apache2 
+		      apt remove apache2
+
+How to check if apache is installed and running ?
+	7.1. systemctl status apache2
+	7.2  IP -> Open in browser
+
+apt -> Advanced Package Tool
+			
+	7.2 Ngnix
+
+Windows -> file.exe / file.msi
+LinuxOS  ->  apt
+
+
+7.2 As soon you install Apache it will create directory
+
+Before Apache install
+	/var
+After Apache install
+	/var/www/html
+
+
+Harsh -> /var/www/html/snenmh.xyz/index.html
+Vijay -> /var/www/html/vijayji.xyz/index.html
+
+
+http://65.108.149.166/  -> /var/www/html/
+
+
+ls -al
+command -flags
+
+rm -rf <file/dir>
+r  = Recursive
+f = Forcefully
+
+
+Why /var/www/html directory is so important for website ?
+
+/var/www/html is a standard directory location where we can put our website code.
+
+
+
+	
+8. How to clone/Download your GitHub repo on Server?
+	/var/www/html/yourdomain
+	git clone <repoLink> -b <branchName> <Location>
+
+
+
+
+
+
+
